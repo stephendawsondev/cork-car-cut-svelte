@@ -1,10 +1,9 @@
-<script>
-	let heroUrl = '/images/cork-car-cut-banner-small.webp';
-</script>
-
 <!-- Homepage hero -->
 <section id="homepage-hero" class="hero">
-	<div class="hero__image"></div>
+	<div
+		class="hero__image"
+		style="background: url('/images/cork-car-cut-banner-small.webp') no-repeat left center;"
+	></div>
 	<div class="hero__text-container">
 		<h1>Cork Car Cut</h1>
 		<h2>An initiative to reduce car usage in Cork City</h2>
@@ -22,7 +21,6 @@
 	}
 
 	.hero__image {
-		background: url({heroUrl}) no-repeat left center;
 		background-size: cover;
 		height: 100%;
 	}
