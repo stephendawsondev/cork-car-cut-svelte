@@ -1,17 +1,35 @@
-<script></script>
+<script>
+	import smallImage from '$lib/assets/images/cork-car-cut-banner-small.webp';
+	import mediumImage from '$lib/assets/images/cork-car-cut-banner-medium.webp';
+	import largeImage from '$lib/assets/images/cork-car-cut-banner-large.webp';
+	import extraLargeImage from '$lib/assets/images/cork-car-cut-banner-extra-large.webp';
 
-<!-- Homepage hero -->
+	let backgroundImage = $state(smallImage);
+	$effect(() => {
+		if (window.innerWidth >= 1400) {
+			backgroundImage = extraLargeImage;
+		} else if (window.innerWidth >= 900) {
+			backgroundImage = largeImage;
+		} else if (window.innerWidth >= 749) {
+			backgroundImage = mediumImage;
+		} else {
+			backgroundImage = smallImage;
+		}
+	});
+</script>
+
 <section id="homepage-hero" class="hero">
-	<div
-		class="hero__image"
-		style="background-image: url('/images/cork-car-cut-banner-small.webp');"
-	></div>
+	<div class="hero__image" style="background-image: url({backgroundImage});"></div>
 	<div class="hero__text-container">
 		<h1>Cork Car Cut</h1>
 		<h2>An initiative to reduce car usage in Cork City</h2>
-		<a href="#how-to-participate" class="btn cta" aria-label="Scrolls to How to participate section"
-			>Get involved</a
+		<a
+			href="#how-to-participate"
+			class="btn cta"
+			aria-label="Scrolls to How to participate section"
 		>
+			Get involved
+		</a>
 	</div>
 </section>
 
@@ -46,19 +64,8 @@
 		font-weight: normal;
 	}
 
-	@media screen and (min-width: 479px) {
-		/* Hero */
-		.hero__image {
-			background: url('../images/cork-car-cut-banner-medium.webp') no-repeat left center;
-		}
-	}
-
 	@media screen and (min-width: 749px) {
 		/* Hero section */
-		.hero__image {
-			background: url('../images/cork-car-cut-banner-large.webp') no-repeat left center;
-		}
-
 		.hero__text-container {
 			opacity: 90%;
 			width: 40%;
@@ -75,7 +82,6 @@
 		}
 
 		.hero__image {
-			background: url('../images/cork-car-cut-banner-extra-large.webp') no-repeat left center;
 			background-size: cover;
 		}
 
