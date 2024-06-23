@@ -1,8 +1,10 @@
+<script></script>
+
 <!-- Homepage hero -->
 <section id="homepage-hero" class="hero">
 	<div
 		class="hero__image"
-		style="background: url('/images/cork-car-cut-banner-small.webp') no-repeat left center;"
+		style="background-image: url('/images/cork-car-cut-banner-small.webp');"
 	></div>
 	<div class="hero__text-container">
 		<h1>Cork Car Cut</h1>
@@ -21,6 +23,8 @@
 	}
 
 	.hero__image {
+		background-repeat: no-repeat;
+		background-position: left center;
 		background-size: cover;
 		height: 100%;
 	}
