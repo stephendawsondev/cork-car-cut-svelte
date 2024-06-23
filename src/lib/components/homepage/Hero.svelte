@@ -18,7 +18,7 @@
 	}
 
 	.hero__image {
-		background: url('/images/cork-car-cut-banner-small.webp') no-repeat left center;
+		background: url('../images/cork-car-cut-banner-small.webp') no-repeat left center;
 		background-size: cover;
 		height: 100%;
 	}
