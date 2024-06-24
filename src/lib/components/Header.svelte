@@ -29,12 +29,14 @@
 		<nav aria-label="Site navigation">
 			<ul>
 				<li class="nav__item">
-					<a href="/" class="nav__link active">Home</a>
+					<a href="/" class={urlPath === '' ? 'nav__link active' : 'nav__link'}>Home</a>
 				</li>
 				<!-- CSS only dropdown -->
 				<li class="nav__item dropdown">
 					<button
-						class="nav__link"
+						class={activities.find((activity) => urlPath === activity.id)
+							? 'nav__link active'
+							: 'nav__link'}
 						type="button"
 						aria-haspopup="true"
 						aria-controls="dropdown-list"
@@ -54,7 +56,9 @@
 					</ul>
 				</li>
 				<li class="nav__item">
-					<a href="contact" class="nav__link">Contact</a>
+					<a href="contact" class={urlPath === 'contact' ? 'nav__link active' : 'nav__link'}
+						>Contact</a
+					>
 				</li>
 			</ul>
 		</nav>
@@ -76,6 +80,10 @@
 
 	header a {
 		color: inherit;
+	}
+
+	a:hover {
+		color: #037f0f;
 	}
 
 	header > .container {
@@ -110,7 +118,8 @@
 		font-size: 0.5rem;
 	}
 
-	.active {
+	.active,
+	.nav__item.dropdown button.active {
 		color: #037f0f;
 		border-bottom: 1px solid #037f0f;
 	}

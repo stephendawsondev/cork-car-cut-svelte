@@ -107,7 +107,7 @@
 						</g>
 					</svg>
 				</h4>
-				<a href="skating">Click here for tips on how to start skating</a>
+				<a href="skateboarding">Click here for tips on how to start skating</a>
 			</div>
 			<div class="card">
 				<div class="card__image-container">
@@ -147,7 +147,7 @@
 					</picture>
 				</div>
 				<h4>Carpool <i class="fa-solid fa-car-side"></i></h4>
-				<a href="carpool">Click here for tips on how to start carpooling</a>
+				<a href="carpooling">Click here for tips on how to start carpooling</a>
 			</div>
 		</div>
 	</div>
