@@ -1,6 +1,7 @@
 <script>
 	import Tip from './Tip.svelte';
-	let { tips, activityId: id } = $props();
+	let { activity } = $props();
+	let { tips, id } = $derived(activity);
 </script>
 
 <!-- Pages tips section -->

@@ -5,11 +5,11 @@
 	let { data } = $props();
 	const { id, activities } = $derived(data);
 	const activity = $derived(activities.find((activity) => activity.id === id));
-	const { title, subtitle, tips, id: activityId } = $derived(activity);
+	const { title, subtitle } = $derived(activity);
 </script>
 
 <Title {title} {subtitle} />
-<Tips {tips} {activityId} />
+<Tips {activity} />
 <hr />
 
 <style>
