@@ -1,6 +1,6 @@
 <h1 align="center">Cork Car Cut Website</h1>
 
-[Click here to view the live Cork Car Cut Website.](https://stephendawsondev.github.io/Cork-Car-Cut)
+[Click here to view the live Cork Car Cut Website.](https://cork-car-cut.stephendawson.ie/)
 
 The Cork Car Cut is an initiative from the Cork City Council to encourage car users to reduce their car usage. The project sets out to provide a number of alternative transport methods that Cork City citizens can use instead of their cars. Since it is a Government initiative, the site is aimed at all ages and social groups.
 
