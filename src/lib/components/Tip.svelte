@@ -44,12 +44,12 @@
 		font-size: 1.5rem;
 	}
 
-	:global(.tip h4) {
+	.tip :global(h4) {
 		margin-top: 0.75em;
 		font-size: 1.25rem;
 	}
 
-	:global(.tip__text ul) {
+	.tip__text :global(ul) {
 		list-style: disc;
 		margin-bottom: 1em;
 	}
