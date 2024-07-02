@@ -3,8 +3,7 @@
 	import Title from '$lib/components/Title.svelte';
 
 	let { data } = $props();
-	const { id, activities } = $derived(data);
-	const activity = $derived(activities.find((activity) => activity.id === id));
+	const { id, activity } = $derived(data);
 	const { title, subtitle } = $derived(activity);
 </script>
 
