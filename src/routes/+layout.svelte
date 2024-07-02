@@ -9,7 +9,7 @@
 <Header {activities} />
 <!-- Main Content -->
 <main>
-	{@render children({ activities })}
+	{@render children()}
 </main>
 
 <!-- Footer -->
