@@ -4,7 +4,7 @@
 
 The Cork Car Cut is an initiative from the Cork City Council to encourage car users to reduce their car usage. The project sets out to provide a number of alternative transport methods that Cork City citizens can use instead of their cars. Since it is a Government initiative, the site is aimed at all ages and social groups.
 
-<h2 align="center"><img src="assets/images/readme-images/responsive-devices.png"></h2>
+<h2 align="center"><img src="static/images/readme-images/responsive-devices.png"></h2>
 
 ## User Experience (UX)
 
@@ -43,15 +43,15 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 ### Wireframes
 
 <details><summary>Homepage Desktop and Mobile Wireframe (Click to expand)</summary>
-    <img src="assets/images/readme-images/wireframes/homepage.png">
+    <img src="static/images/readme-images/wireframes/homepage.png">
 </details>
 
 <details><summary>Car Alternatives page Wireframe (Click to expand)</summary>
-    <img src="assets/images/readme-images/wireframes/car-alternatives.png">
+    <img src="static/images/readme-images/wireframes/car-alternatives.png">
 </details>
 
 <details><summary>Contact Us Page Wireframe (Click to expand)</summary>
-    <img src="assets/images/readme-images/wireframes/contact-page.png">
+    <img src="static/images/readme-images/wireframes/contact-page.png">
 </details>
 <br>
 ## Features
@@ -70,49 +70,49 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
     <br>
     The sticky header contains three menu items. One item is a dropdown item made with CSS. The sticky header also stays on the page as the user scrolls, so it is always there when they need it.
     <br>
-    <img src="assets/images/readme-images/features/sticky-header.png">
+    <img src="static/images/readme-images/features/sticky-header.png">
 </details>
 <details><summary>Homepage hero image and text box (Click to expand)</summary>
     <br>
     The homepage hero image helps the user understand what the site is about right when they access it. The images used show that the forms of transport being used are cycling, walking and skateboarding. The text box also helps the user understand what the site is about by using the **Cork Car Cut** heading and a subheading explaining what the initiative is about.
     <br>
-    <img src="assets/images/readme-images/features/homepage-hero.png">
+    <img src="static/images/readme-images/features/homepage-hero.png">
 </details>
 <details><summary>What to change section (Click to expand)</summary>
     <br>
     The "What we want to change" section provides the user with context as to what the problem is and why we should solve it.
     <br>
-    <img src="assets/images/readme-images/features/what-to-change-section.png">
+    <img src="static/images/readme-images/features/what-to-change-section.png">
 </details>
 <details><summary>How to participate section (Click to expand)</summary>
     <br>
     The "How to participate" section provides the user with 6 ways of travelling without driving themselves. The first point is walk or roll, to accomodate wheelchair users, then we have skating for younger people (or skaters) as well as running and cycling for everyone. It also shows public transport and carpooling as methods of transport, since they still contribute to fewer cars on the road. Using this section, the user can navigate to each alternative transport's individual page.
     <br>
-    <img src="assets/images/readme-images/features/how-to-participate-section.png">
+    <img src="static/images/readme-images/features/how-to-participate-section.png">
 </details>
 <details><summary>Footer (Click to expand)</summary>
     <br>
     The footer serves to show that the initiative is by the Cork City Council. It also provides some useful related links and to the contact page. Social links to the Cork City Council's social pages are also there.
     <br>
-    <img src="assets/images/readme-images/features/footer.png">
+    <img src="static/images/readme-images/features/footer.png">
 </details>
 <details><summary>Alternative transport tips section (Click to expand)</summary>
     <br>
     On each alternative form of transport page, there is a section that has a list of tips on getting started. This section can include things like buying the equipment, starting a programme and joining a group for support.
     <br>
-    <img src="assets/images/readme-images/features/alternative-transport-tips-section.png">
+    <img src="static/images/readme-images/features/alternative-transport-tips-section.png">
 </details>
 <details><summary>Contact form (Click to expand)</summary>
     <br>
     The contact form can be used for users to reach out about the programme. It includes validation on the first name, last name, email address and message so that it cannot be submitted without them. The phone number is optional. There is also an option radio button selection to encourage users to stay on topic, but they can also choose to ask a general question.
     <br>
-    <img src="assets/images/readme-images/features/contact-form.png">
+    <img src="static/images/readme-images/features/contact-form.png">
 </details>
 <details><summary>Contact Address and Map (Click to expand)</summary>
     <br>
     The contact address and contact map on the Contact page provides the user with a physical location of the Cork City Council, which also creates a sense of trust since the user is likely located in the Cork Community.
     <br>
-    <img src="assets/images/readme-images/features/contact-address-and-map.png">
+    <img src="static/images/readme-images/features/contact-address-and-map.png">
 </details>
 
 <br>
@@ -138,7 +138,7 @@ The Cork Car Cut is an initiative from the Cork City Council to encourage car us
 5. [GitHub:](https://github.com/)
    - GitHub is used to store the projects code after being pushed from Git.
 6. [Balsamiq:](https://balsamiq.com/)
-   - Balsamiq was used to create the [wireframes](assets/images/readme-images/wireframes) during the design process.
+   - Balsamiq was used to create the [wireframes](static/images/readme-images/wireframes) during the design process.
 7. [Box Shadow Generator:](https://cssgenerator.org/box-shadow-css-generator.html)
    - Used to generate the box shadow for the sticky header
 8. [Fancy Border Radius Generator:](https://mdbootstrap.com/docs/standard/tools/design/fancy-border-radius/)
@@ -153,35 +153,35 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [W3C Markup Validator:](https://validator.w3.org/)
   <details><summary>Homepage (Click to expand)</summary>
   <br>
-  <img src="assets/images/readme-images/accessibility-images/homepage.png">
+  <img src="static/images/readme-images/accessibility-images/homepage.png">
   </details>
   <details><summary>Walk or roll page (Click to expand)</summary>
   <br>
-  <img src="assets/images/readme-images/accessibility-images/walk-or-roll.png">
+  <img src="static/images/readme-images/accessibility-images/walk-or-roll.png">
   </details>
   <details><summary>Running page (Click to expand)</summary>
   <br>
-  <img src="assets/images/readme-images/accessibility-images/running.png">
+  <img src="static/images/readme-images/accessibility-images/running.png">
   </details>
   <details><summary>Cycling page (Click to expand)</summary>
   <br>
-  <img src="assets/images/readme-images/accessibility-images/cycling.png">
+  <img src="static/images/readme-images/accessibility-images/cycling.png">
   </details>
   <details><summary>Skating page (Click to expand)</summary>
   <br>
-  <img src="assets/images/readme-images/accessibility-images/skating.png">
+  <img src="static/images/readme-images/accessibility-images/skating.png">
   </details>
   <details><summary>Public Transport page (Click to expand)</summary>
   <br>
-  <img src="assets/images/readme-images/accessibility-images/public-transport.png">
+  <img src="static/images/readme-images/accessibility-images/public-transport.png">
   </details>
   <details><summary>Carpool page (Click to expand)</summary>
   <br>
-  <img src="assets/images/readme-images/accessibility-images/carpool.png">
+  <img src="static/images/readme-images/accessibility-images/carpool.png">
   </details>
   <details><summary>Contact page (Click to expand)</summary>
   <br>
-  <img src="assets/images/readme-images/accessibility-images/contact.png">
+  <img src="static/images/readme-images/accessibility-images/contact.png">
   </details>
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fstephendawsondev.github.io%2FCork-Car-Cut%2F&usermedium=all&vextwarning=&warning=1)
@@ -194,70 +194,70 @@ I used the [Pagespeed Insights tool](https://pagespeed.web.dev/) to check my web
 
 <details><summary>Homepage - Mobile (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/homepage-mobile.png">
+    <img src="static/images/readme-images/performance/homepage-mobile.png">
     </details>
     <details><summary>Walk or roll page - Mobile (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/walk-or-roll-mobile.png">
+    <img src="static/images/readme-images/performance/walk-or-roll-mobile.png">
     </details>
     <details><summary>Running page - Mobile (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/running-mobile.png">
+    <img src="static/images/readme-images/performance/running-mobile.png">
     </details>
     <details><summary>Cycling page - Mobile (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/cycling-mobile.png">
+    <img src="static/images/readme-images/performance/cycling-mobile.png">
     </details>
     <details><summary>Skating page - Mobile (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/skating-mobile.png">
+    <img src="static/images/readme-images/performance/skating-mobile.png">
     </details>
     <details><summary>Public Transport page - Mobile (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/public-transport-mobile.png">
+    <img src="static/images/readme-images/performance/public-transport-mobile.png">
     </details>
     <details><summary>Carpool page - Mobile (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/carpool-mobile.png">
+    <img src="static/images/readme-images/performance/carpool-mobile.png">
     </details>
     <details><summary>Contact page - Mobile (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/contact-mobile.png">
+    <img src="static/images/readme-images/performance/contact-mobile.png">
 </details>
 
 #### Desktop
 
 <details><summary>Homepage - Desktop (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/homepage-desktop.png">
+    <img src="static/images/readme-images/performance/homepage-desktop.png">
     </details>
     <details><summary>Walk or roll page - Desktop (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/walk-or-roll-desktop.png">
+    <img src="static/images/readme-images/performance/walk-or-roll-desktop.png">
     </details>
     <details><summary>Running page - Desktop (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/running-desktop.png">
+    <img src="static/images/readme-images/performance/running-desktop.png">
     </details>
     <details><summary>Cycling page - Desktop (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/cycling-desktop.png">
+    <img src="static/images/readme-images/performance/cycling-desktop.png">
     </details>
     <details><summary>Skating page - Desktop (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/skating-desktop.png">
+    <img src="static/images/readme-images/performance/skating-desktop.png">
     </details>
     <details><summary>Public Transport page - Desktop (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/public-transport-desktop.png">
+    <img src="static/images/readme-images/performance/public-transport-desktop.png">
     </details>
     <details><summary>Carpool page - Desktop (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/carpool-desktop.png">
+    <img src="static/images/readme-images/performance/carpool-desktop.png">
     </details>
     <details><summary>Contact page - Desktop (Click to expand)</summary>
     <br>
-    <img src="assets/images/readme-images/performance/contact-desktop.png">
+    <img src="static/images/readme-images/performance/contact-desktop.png">
 </details>
 
 ### Testing User Stories from User Experience (UX) Section
@@ -410,8 +410,8 @@ $ git clone https://github.com/stephendawsondev/Cork-Car-Cut
   - <a href="https://unsplash.com/@jakobowens1">Jakob Owens</a> on Unsplash
   - <a href="https://unsplash.com/@munbaik_cycling">Munbaik Cycling Clothing</a> on Unsplash
   - <a href="https://unsplash.com/@danny_lincoln">Daniel Lincoln</a> on Unsplash
-- <a href="assets/images/traffic-in-cork-city-small.webp" target="_blank">Photo of Cork City by William Murphy - Image was cropped</a>
-- <a href="assets/images/bus-eireann-small.webp" target="_blank">Image from CitySwift on Flickr - Image was cropped slightly to show the bus</a>
+- <a href="static/images/traffic-in-cork-city-small.webp" target="_blank">Photo of Cork City by William Murphy - Image was cropped</a>
+- <a href="static/images/bus-eireann-small.webp" target="_blank">Image from CitySwift on Flickr - Image was cropped slightly to show the bus</a>
 - Social icons image on homepages by Bastian Riccardi (Unsplash)
 - Other card images from [PickPik](https://www.pickpik.com/)
 - Cork City Council Logo from [Cork City Council Website](https://www.corkcity.ie/en/)
